@@ -1,0 +1,54 @@
+body {
+    background-color: #09184f;
+    margin: 0px;
+}
+
+.font-format {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    cursor: pointer;
+    font-size: larger;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    border: 5px;
+    border-style: solid;
+    border-color: #09184f;
+}
+
+.profile-picture:hover {
+    border-style: solid;
+    border-color: white;
+}
+
+#profiles-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 86vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.profile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.new-profile {
+    opacity: 0.5;
+}
